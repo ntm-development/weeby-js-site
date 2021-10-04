@@ -20,7 +20,7 @@
 						"
 						active-class="bg-discord-blurple-600"
 					>
-						discord.js
+						weeby-js
 					</router-link>
 
 					<router-link
@@ -65,7 +65,7 @@
 					</a>
 
 					<a
-						href="https://discordjs.guide"
+						href="https://discord.gg/cmUFubKUtu"
 						class="
 							text-gray-200
 							hover:bg-discord-blurple-630 hover:text-white
@@ -82,7 +82,7 @@
 						target="_blank"
 						rel="noopener"
 					>
-						<span class="mr-2">Guide</span><heroicons-outline-external-link class="h-5 w-5" />
+						<span class="mr-2">Discord</span><heroicons-outline-external-link class="h-5 w-5" />
 					</a>
 				</nav>
 
@@ -278,7 +278,7 @@
 								font-semibold
 							"
 							@click="isOpen = !isOpen"
-							>discord.js</router-link
+							>weeby-js</router-link
 						>
 
 						<router-link
@@ -316,7 +316,7 @@
 						/></a>
 
 						<a
-							href="https://discordjs.guide"
+							href="https://discord.gg/cmUFubKUtu"
 							class="
 								text-gray-200
 								hover:bg-discord-blurple-630 hover:text-white
@@ -330,7 +330,7 @@
 							target="_blank"
 							rel="noopener"
 							@click="isOpen = !isOpen"
-							><span class="mr-2">Guide</span><heroicons-outline-external-link class="h-5 w-5 inline-block"
+							><span class="mr-2">Discord</span><heroicons-outline-external-link class="h-5 w-5 inline-block"
 						/></a>
 					</div>
 				</nav>

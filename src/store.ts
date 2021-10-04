@@ -3,9 +3,6 @@ import { createStore, useStore as baseUseStore, Store } from 'vuex';
 
 import DocsSource from './data/DocsSource';
 import MainSource from './data/MainSource';
-import CollectionSource from '~/data/CollectionSource';
-import CommandoSource from '~/data/CommandoSource';
-import RPCSource from '~/data/RPCSource';
 
 import { Documentation, DocumentationCustomFile } from './interfaces/Documentation';
 import { SearchTerm, DocumentType, DocumentLink } from './util/search';
@@ -32,21 +29,16 @@ export const key: InjectionKey<Store<State>> = Symbol('docs');
 
 export const store = createStore<State>({
 	state: {
-		sources: [
-			{ source: MainSource, name: MainSource.name, id: MainSource.id },
-			{ source: CollectionSource, name: CollectionSource.name, id: CollectionSource.id },
-			{ source: CommandoSource, name: CommandoSource.name, id: CommandoSource.id },
-			{ source: RPCSource, name: RPCSource.name, id: RPCSource.id },
-		],
+		sources: [{ source: MainSource, name: MainSource.name, id: MainSource.id }],
 		source: MainSource,
 		tag: MainSource.defaultTag,
 		docs: null,
 		branches: [],
 		file: null,
 		stats: {
-			downloads: `${(225_000_000).toLocaleString()}+`,
-			stars: `${(11_000).toLocaleString()}+`,
-			contributors: `${(100).toLocaleString()}+`,
+			downloads: `${(2_750).toLocaleString()}+`,
+			stars: `${(4).toLocaleString()}+`,
+			contributors: `${(2).toLocaleString()}+`,
 		},
 		searchIndex: [],
 		searchRef: [],
@@ -86,9 +78,9 @@ export const store = createStore<State>({
 			const noop = () => {};
 
 			const [fetchedDownloads, fetchedStars, fetchedContributors] = await Promise.all([
-				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/discord.js').then(toJSON, noop),
-				fetch('https://api.github.com/repos/discordjs/discord.js').then(toJSON, noop),
-				fetch('https://api.github.com/repos/discordjs/discord.js/stats/contributors').then(toJSON, noop),
+				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/weeby-js').then(toJSON, noop),
+				fetch('https://api.github.com/repos/ntm-development/weeby-js').then(toJSON, noop),
+				fetch('https://api.github.com/repos/ntm-development/weeby-js/stats/contributors').then(toJSON, noop),
 			]);
 
 			if (fetchedDownloads) {
@@ -295,14 +287,6 @@ export const store = createStore<State>({
 			}
 			for (const t of documentation.typedefs) {
 				documentation.links[t.name] = { name: 'docs-source-tag-typedef-typedef', params: { typedef: t.name } };
-			}
-
-			// Workaround for the single use of inter-source see also linking
-			if (inputSource.id === 'commando') {
-				documentation.links.Message = {
-					name: 'docs-source-tag-class-class',
-					params: { source: 'main', tag: 'master', class: 'Message' },
-				};
 			}
 
 			documentation.global = inputSource.global;

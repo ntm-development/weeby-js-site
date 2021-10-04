@@ -1,9 +1,10 @@
 <template>
 	<footer class="bg-discord-blurple-560">
 		<div class="max-w-3xl mx-auto text-center px-16 pt-10 pb-4 text-gray-200">
-			<strong><router-link to="/">discord.js</router-link></strong>
-			<p class="mb-4">A powerful library for interacting with the Discord API</p>
+			<strong><router-link to="/">weeby-js</router-link></strong>
+			<p class="mb-4">A powerful library for interacting with the Weeby API</p>
 			<Stats class="mb-4" />
+			<p class="mb-4">Theme designed by the developers of Discord.js</p>
 			<p class="text-xs break-words-legacy">
 				commit: {{ gitCommit }}<br />
 				built at: {{ builtAt }}

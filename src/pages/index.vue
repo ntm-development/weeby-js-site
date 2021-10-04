@@ -20,32 +20,28 @@
 	>
 		<div class="col-span-full">
 			<h2>About</h2>
-			<h3>Imagine a bot</h3>
+			<!-- <h3>Imagine a bot</h3> -->
 			<p>
-				discord.js is a powerful
-				<a href="https://nodejs.org" target="_blank" rel="noopener"
-					>Node.js <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
+				Weeby-JS is the official JavaScript API Wrapper which is powerful and allows easy interaction with the
+				<a href="https://weebyapi.xyz/" target="_blank" rel="noopener"
+					>Weeby API <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
-				module that allows you to interact with the
-				<a href="https://discord.com/developers/docs/intro" target="_blank" rel="noopener"
-					>Discord API <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
+				endpoints. Actively maintained by
+				<a href="https://weebyapi.xyz/" target="_blank" rel="noopener"
+					>NTM Development <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
-				very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your
-				bot's code significantly tidier and easier to comprehend.
-			</p>
-			<p>
-				Usability, consistency, and performance are key focuses of discord.js, and it also has nearly 100% coverage of
-				the Discord API. It receives new Discord features shortly after they arrive in the API.
+				and community members, Weeby-JS receives new updates shortly after new features have been released on the API.
 			</p>
 		</div>
 		<div>
 			<h2>Why?</h2>
 			<ul>
+				<li>Super simple and easy to use</li>
+				<li>Built in Documentation</li>
+				<li>Includes all methods from Weeby API</li>
 				<li>Object-oriented</li>
-				<li>Speedy and efficient</li>
-				<li>Feature-rich</li>
-				<li>Flexible</li>
-				<li>100% Promise-based</li>
+				<li>Beginner friendly</li>
+				<li>Supports TypeScript</li>
 			</ul>
 		</div>
 		<div>
