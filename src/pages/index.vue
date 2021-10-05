@@ -20,7 +20,6 @@
 	>
 		<div class="col-span-full">
 			<h2>About</h2>
-			<!-- <h3>Imagine a bot</h3> -->
 			<p>
 				Weeby-JS is the official JavaScript API Wrapper which is powerful and allows easy interaction with the
 				<a href="https://weebyapi.xyz/" target="_blank" rel="noopener"
