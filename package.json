@@ -1,7 +1,7 @@
 {
-	"name": "weeby-js-website",
+	"name": "weeby-js-site",
 	"version": "3.0.0",
-	"description": "The website housing documentation for weeby-js",
+	"description": "The website that automatically hosts and pulls documentation for Weeby-JS.",
 	"author": "Noel Buechler <icrawltogo@outlook.com>",
 	"contributors": [
 		"Amish Shah <amishshah.2k@gmail.com>",

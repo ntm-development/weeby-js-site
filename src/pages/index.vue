@@ -26,10 +26,10 @@
 					>Weeby API <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
 				endpoints. Actively maintained by
-				<a href="https://weebyapi.xyz/" target="_blank" rel="noopener"
+				<a href="https://dev.ntmcentral.xyz/" target="_blank" rel="noopener"
 					>NTM Development <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
-				and community members, Weeby-JS receives new updates shortly after new features have been released on the API.
+				and community members, Weeby-JS receives new updates shortly after new features have been released to the API.
 			</p>
 		</div>
 		<div>
@@ -40,7 +40,7 @@
 				<li>Includes all methods from Weeby API</li>
 				<li>Object-oriented</li>
 				<li>Beginner friendly</li>
-				<li>Supports TypeScript</li>
+				<li>Supports for TypeScript</li>
 			</ul>
 		</div>
 		<div>

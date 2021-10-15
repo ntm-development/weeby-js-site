@@ -3,9 +3,31 @@
 @tailwind utilities;
 
 @layer base {
+	@font-face {
+		font-family: 'WotfardBold';
+		src: url('../fonts/Wotfard-Bold.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Wotfard';
+		src: url('../fonts/Wotfard-Regular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'WotfardMedium';
+		src: url('../fonts/Wotfard-Medium.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 	html,
 	body {
 		@apply bg-discord-blurple-560;
+		font-family: "Wotfard", sans-serif;
 	}
 
 	body {
@@ -20,6 +42,10 @@
 
 	img {
 		@apply inline-block !m-0;
+	}
+
+	h1, h2 {
+		font-family: "WotfardBold", sans-serif;
 	}
 }
 

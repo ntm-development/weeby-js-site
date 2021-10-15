@@ -4,9 +4,15 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			fontFamily: {
+				wotfard: ['Wotfard', 'sans-serif'],
+				wotfardMedium: ['WotfardMedium', 'sans-serif'],
+				wotfardBold: ['WotfardBold', 'sans-serif'],
+			},
 			colors: {
 				discord: {
 					600: '#3c45a5',
+					700: '#e881d0',
 					blurple: {
 						100: '#f7f7fe',
 						130: '#f0f1fe',
@@ -33,6 +39,18 @@ module.exports = {
 						830: '#141738',
 						860: '#0d0f24',
 						900: '#04050c',
+					},
+					weeby: {
+						50: '#8b708a',
+						100: '#816680',
+						200: '#775c76',
+						300: '#6d526c',
+						400: '#634862',
+						500: '#593e58',
+						600: '#4f344e',
+						700: '#452a44',
+						800: '#3b203a',
+						900: '#311630',
 					},
 					red: {
 						130: '#fdeeee',
