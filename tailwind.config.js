@@ -136,7 +136,7 @@ module.exports = {
 								color: theme('colors.gray.300'),
 							},
 							a: {
-								color: theme('colors.discord.weeby.330'),
+								color: theme('colors.discord.blurple.330'),
 							},
 							strong: {
 								color: theme('colors.white'),
