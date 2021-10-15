@@ -1,5 +1,5 @@
 <template>
-	<code class="text-gray-200 bg-discord-blurple-560 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
+	<code class="text-gray-200 bg-discord-weeby-400 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
 		><span class="hover:text-white mr-2">npm install weeby-js</span>
 		<button ref="copyButton" class="focus:outline-none" aria-label="Copy install command">
 			<heroicons-outline-clipboard-copy

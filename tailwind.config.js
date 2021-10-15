@@ -51,6 +51,7 @@ module.exports = {
 						700: '#452a44',
 						800: '#3b203a',
 						900: '#311630',
+						1000: '#2C232F',
 					},
 					red: {
 						130: '#fdeeee',
@@ -135,7 +136,7 @@ module.exports = {
 								color: theme('colors.gray.300'),
 							},
 							a: {
-								color: theme('colors.discord.blurple.330'),
+								color: theme('colors.discord.weeby.330'),
 							},
 							strong: {
 								color: theme('colors.white'),

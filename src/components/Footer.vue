@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-discord-blurple-560">
+	<footer class="bg-discord-weeby-1000">
 		<div class="max-w-3xl mx-auto text-center px-16 pt-10 pb-4 text-gray-200">
 			<strong><router-link to="/">weeby-js</router-link></strong>
 			<p class="mb-4">The official JavaScript API Wrapper for Weeby API.</p>
