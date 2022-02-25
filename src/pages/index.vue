@@ -40,7 +40,7 @@
 				<li>Includes all methods from Weeby API</li>
 				<li>Object-oriented</li>
 				<li>Beginner friendly</li>
-				<li>Supports for TypeScript</li>
+				<li>Support for TypeScript</li>
 			</ul>
 		</div>
 		<div>
