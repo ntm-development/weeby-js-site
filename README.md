@@ -12,4 +12,4 @@ This repository holds the documentation for Weeby-JS, the official wrapper for W
 ### https://js.weebyapi.xyz/
 
 ## Credits
-This website was originally created and designed by Discord.js, see the package.json for more info.
+This website was originally created and designed by Discord.js (https://discord.js.org), see the package.json for more info.
